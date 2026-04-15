@@ -1,2 +1,0 @@
-2026-04-15 14:24:44,714 | INFO | bot.orders | order_submit request={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '120000', 'timeInForce': 'GTC'}
-2026-04-15 14:24:44,714 | INFO | bot.orders | order_submit_dry_run response={'orderId': 999999, 'status': 'NEW', 'executedQty': '0', 'avgPrice': '120000', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'clientNote': 'dry-run mode, no request sent'}

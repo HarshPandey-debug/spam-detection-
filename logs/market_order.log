@@ -1,2 +1,0 @@
-2026-04-15 14:24:38,566 | INFO | bot.orders | order_submit request={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
-2026-04-15 14:24:38,567 | INFO | bot.orders | order_submit_dry_run response={'orderId': 999999, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '0', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'clientNote': 'dry-run mode, no request sent'}
