@@ -128,11 +128,3 @@ This repository includes sample logs requested by the assessment:
 - Symbol precision, quantity step, and min notional checks are delegated to Binance validation (improvement opportunity: prefetch exchange info and validate locally).
 - LIMIT orders are submitted with `timeInForce=GTC`.
 
-## Suggested interview talking points (optional)
-
-If asked “what would you improve in production?”:
-1. Add idempotency safeguards and client order IDs.
-2. Add exchange filters pre-validation (`/fapi/v1/exchangeInfo`).
-3. Add retries with exponential backoff for transient errors.
-4. Add unit/integration tests with mocked HTTP transport.
-5. Add Docker image and CI checks.
